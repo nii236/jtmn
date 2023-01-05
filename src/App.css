@@ -4,19 +4,28 @@ div.react-terminal-wrapper {
   padding-right: 1rem;
 }
 
-@media (min-width: 1024px) {
-  div.react-terminal-wrapper {
-    padding-left: 5rem;
-    padding-right: 5rem;
-  }
-}
-
 div.react-terminal {
   -ms-overflow-style: none;
   scrollbar-width: none;
   overflow-y: scroll; 
+  height: 400px;
 }
 
 div.react-terminal::-webkit-scrollbar {
   display: none;
 }
+
+@media (min-width: 1024px) {
+  div.react-terminal-wrapper {
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+  div.react-terminal {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    overflow-y: scroll;
+    height: 600px;
+  }
+}
+
+
