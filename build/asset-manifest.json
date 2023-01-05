@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/static/css/main.940bace3.css",
+    "main.js": "/static/js/main.061f97ff.js",
+    "static/js/787.84fd3cb2.chunk.js": "/static/js/787.84fd3cb2.chunk.js",
+    "static/media/ubuntu-all-400-normal.woff": "/static/media/ubuntu-all-400-normal.8629f83ad2c45e75a914.woff",
+    "static/media/ubuntu-condensed-all-400-normal.woff": "/static/media/ubuntu-condensed-all-400-normal.ea4b70c849f9c942f6ed.woff",
+    "static/media/ubuntu-mono-all-400-normal.woff": "/static/media/ubuntu-mono-all-400-normal.c879328bc62e9c68268f.woff",
+    "static/media/ubuntu-latin-ext-400-normal.woff2": "/static/media/ubuntu-latin-ext-400-normal.9967dbf10fc3cb92edfb.woff2",
+    "static/media/ubuntu-condensed-latin-ext-400-normal.woff2": "/static/media/ubuntu-condensed-latin-ext-400-normal.67776d4d91a0569d2397.woff2",
+    "static/media/ubuntu-latin-400-normal.woff2": "/static/media/ubuntu-latin-400-normal.2f02effe392a63dc07a5.woff2",
+    "static/media/ubuntu-mono-latin-ext-400-normal.woff2": "/static/media/ubuntu-mono-latin-ext-400-normal.b56e2315611d10838ad5.woff2",
+    "static/media/ubuntu-condensed-latin-400-normal.woff2": "/static/media/ubuntu-condensed-latin-400-normal.094df42b82101241a935.woff2",
+    "static/media/ubuntu-mono-latin-400-normal.woff2": "/static/media/ubuntu-mono-latin-400-normal.18e32d9d743af28f913e.woff2",
+    "static/media/ubuntu-cyrillic-ext-400-normal.woff2": "/static/media/ubuntu-cyrillic-ext-400-normal.80c010be16bde8b7e613.woff2",
+    "static/media/ubuntu-cyrillic-400-normal.woff2": "/static/media/ubuntu-cyrillic-400-normal.5baf1f37de97e50ab654.woff2",
+    "static/media/ubuntu-condensed-cyrillic-ext-400-normal.woff2": "/static/media/ubuntu-condensed-cyrillic-ext-400-normal.a8422c4f59b9214099b8.woff2",
+    "static/media/ubuntu-condensed-cyrillic-400-normal.woff2": "/static/media/ubuntu-condensed-cyrillic-400-normal.d62bc4061d128e798a90.woff2",
+    "static/media/ubuntu-mono-cyrillic-ext-400-normal.woff2": "/static/media/ubuntu-mono-cyrillic-ext-400-normal.eda1c4946b1f7bf58386.woff2",
+    "static/media/ubuntu-greek-400-normal.woff2": "/static/media/ubuntu-greek-400-normal.038ee74fde7a2c872ee2.woff2",
+    "static/media/ubuntu-greek-ext-400-normal.woff2": "/static/media/ubuntu-greek-ext-400-normal.7f5049065c02fb5e0628.woff2",
+    "static/media/ubuntu-mono-cyrillic-400-normal.woff2": "/static/media/ubuntu-mono-cyrillic-400-normal.c367f416832eb8f1b846.woff2",
+    "static/media/ubuntu-condensed-greek-400-normal.woff2": "/static/media/ubuntu-condensed-greek-400-normal.cc6b2bd278edb7f616eb.woff2",
+    "static/media/ubuntu-condensed-greek-ext-400-normal.woff2": "/static/media/ubuntu-condensed-greek-ext-400-normal.cfd7dcab9a6138dd131a.woff2",
+    "static/media/ubuntu-mono-greek-400-normal.woff2": "/static/media/ubuntu-mono-greek-400-normal.22f3bfc91f79c342bdf4.woff2",
+    "static/media/ubuntu-mono-greek-ext-400-normal.woff2": "/static/media/ubuntu-mono-greek-ext-400-normal.b3459900ea8a25d1f7c2.woff2",
+    "index.html": "/index.html",
+    "main.940bace3.css.map": "/static/css/main.940bace3.css.map",
+    "main.061f97ff.js.map": "/static/js/main.061f97ff.js.map",
+    "787.84fd3cb2.chunk.js.map": "/static/js/787.84fd3cb2.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.940bace3.css",
+    "static/js/main.061f97ff.js"
+  ]
+}
