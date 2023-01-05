@@ -532,6 +532,7 @@ const ShortcutButton = (props: {
   return (
     <Box
       sx={{
+        cursor: "pointer",
         borderWidth: "0.1px",
         borderStyle: "dashed",
         padding: "0.5rem",
