@@ -429,7 +429,15 @@ const TerminalContainer = () => {
     setTerminalLineData(ld)
   }
   const handleCV = (ld: JSX.Element[]) => {
-    ld.push(<div>Opening new tab...</div>)
+    ld.push(
+      <div>
+        Opening new tab... click{" "}
+        <Link target="_blank" href="/doc/john_nguyen_cv.pdf">
+          here
+        </Link>{" "}
+        if it doesn't open.
+      </div>
+    )
     setTerminalLineData(ld)
     setTimeout(() => {
       window.open("/doc/john_nguyen_cv.pdf", "_blank")
