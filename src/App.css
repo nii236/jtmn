@@ -2,7 +2,7 @@ div.react-terminal-wrapper {
   font-family: "Ubuntu Mono";
 }
 
-@media only screen and (max-device-width: 1024px) {
+@media (max-width: 480px) {
   div.react-terminal-wrapper {
     padding-left: 1rem;
     padding-right: 1rem;
