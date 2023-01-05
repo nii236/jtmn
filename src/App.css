@@ -2,6 +2,13 @@ div.react-terminal-wrapper {
   font-family: "Ubuntu Mono";
 }
 
+@media screen and (max-width: 600px) {
+  div.react-terminal-wrapper {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
+
 div.react-terminal {
   -ms-overflow-style: none;
   scrollbar-width: none;
