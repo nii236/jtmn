@@ -9,7 +9,7 @@ export const TopButton = () => {
     >
       <Box
         sx={{
-          display: ["block", "block", "none"],
+          display: ["block", "none", "none"],
           alignItems: "center",
           borderStyle: "solid",
           borderRadius: "0.5rem",
