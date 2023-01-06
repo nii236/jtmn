@@ -1,4 +1,4 @@
-import { useState } from "react"
+import React, { useState } from "react"
 import Terminal, {
   ColorMode as TermColor,
   TerminalInput,
@@ -548,7 +548,9 @@ const TerminalController = (props: {
         colorMode={mode === "light" ? TermColor.Light : TermColor.Dark}
         onInput={(input) => props.onInput(input)}
       >
-        {props.text}
+        {props.text.map((el, i) => (
+          <React.Fragment key={i}>{el}</React.Fragment>
+        ))}
       </Terminal>
       <TopButton />
     </Box>

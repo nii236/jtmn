@@ -4,6 +4,26 @@ div.react-terminal-wrapper {
   padding-right: 1rem;
 }
 
+
+textarea::-webkit-scrollbar {
+  width: 0.2em;
+  height: 0.2em;
+}
+
+textarea::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+
+textarea::-webkit-scrollbar-thumb {
+  background-color: darkgrey;
+  outline: 1px solid slategrey;
+}
+
+
+div.hide-scroll::-webkit-scrollbar {
+  display: none;
+}
+
 div.react-terminal {
   -ms-overflow-style: none;
   scrollbar-width: none;

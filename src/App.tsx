@@ -16,10 +16,8 @@ function App() {
         <Flex
           sx={{ justifyContent: "center", flexDirection: ["column", "row"] }}
         >
-          <Box>
-            <Header />
-          </Box>
-          <Box sx={{ alignSelf: "flex-end", width: "100%" }}>
+          <Header />
+          <Box sx={{ flex: 3, alignSelf: "flex-end" }}>
             <TerminalContainer />
           </Box>
         </Flex>

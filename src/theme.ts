@@ -39,7 +39,6 @@ export const theme: Theme = {
       listStyleType: "none",
     },
   },
-
   config: {
     initialColorModeName: "light",
   },
