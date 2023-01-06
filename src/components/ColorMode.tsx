@@ -7,7 +7,7 @@ export const ColorMode = (props: any) => {
   return (
     <Button
       variant="secondary"
-      sx={{ margin: "1rem", cursor: "pointer" }}
+      sx={{ alignSelf: "end", margin: "1rem", cursor: "pointer" }}
       {...props}
       onClick={(e) => {
         const index = modes.indexOf(mode)

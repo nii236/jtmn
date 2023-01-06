@@ -7,7 +7,11 @@ import { system } from "@theme-ui/presets"
 
 export const theme: Theme = {
   ...system,
-
+  sizes: {
+    container: {
+      maxWidth: "5rem",
+    },
+  },
   fonts: {
     ...system.fonts,
     body: "Ubuntu Mono",

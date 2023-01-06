@@ -1,18 +1,35 @@
-import { Container } from "@mantine/core"
+import { Box, Flex, Heading, Image, Paragraph } from "theme-ui"
 
 const Header = () => {
   return (
-    <Container>
-      <div className="tc">
-        <div className="w5 center">
-          <img
-            className="br4 h-100 w-100 dib"
+    <Flex
+      sx={{
+        flexDirection: "column",
+        alignItems: "center",
+        gap: ["1rem", "2rem"],
+      }}
+      m={"1rem"}
+    >
+      <Box>
+        <Heading as="h1" sx={{ textAlign: "center" }}>
+          John Nguyen
+        </Heading>
+        <Paragraph sx={{ textAlign: "center", fontStyle: "oblique" }}>
+          Chief Technology Officer, Software Engineer, Web3 Developer
+        </Paragraph>
+      </Box>
+      <Box className="tc">
+        <Box className="w5 center">
+          <Image
+            height={"100%"}
+            width={"100%"}
+            sx={{ borderRadius: "1rem" }}
             src="/img/webtoon.jpg"
             alt="avatar"
           />
-        </div>
-      </div>
-    </Container>
+        </Box>
+      </Box>
+    </Flex>
   )
 }
 export { Header }

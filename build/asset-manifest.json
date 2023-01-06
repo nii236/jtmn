@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.70954df4.css",
-    "main.js": "/static/js/main.020cc803.js",
+    "main.css": "/static/css/main.01a52b35.css",
+    "main.js": "/static/js/main.4459468e.js",
     "static/js/787.84fd3cb2.chunk.js": "/static/js/787.84fd3cb2.chunk.js",
     "static/media/ubuntu-all-400-normal.woff": "/static/media/ubuntu-all-400-normal.8629f83ad2c45e75a914.woff",
     "static/media/ubuntu-condensed-all-400-normal.woff": "/static/media/ubuntu-condensed-all-400-normal.ea4b70c849f9c942f6ed.woff",
@@ -25,12 +25,12 @@
     "static/media/ubuntu-mono-greek-400-normal.woff2": "/static/media/ubuntu-mono-greek-400-normal.22f3bfc91f79c342bdf4.woff2",
     "static/media/ubuntu-mono-greek-ext-400-normal.woff2": "/static/media/ubuntu-mono-greek-ext-400-normal.b3459900ea8a25d1f7c2.woff2",
     "index.html": "/index.html",
-    "main.70954df4.css.map": "/static/css/main.70954df4.css.map",
-    "main.020cc803.js.map": "/static/js/main.020cc803.js.map",
+    "main.01a52b35.css.map": "/static/css/main.01a52b35.css.map",
+    "main.4459468e.js.map": "/static/js/main.4459468e.js.map",
     "787.84fd3cb2.chunk.js.map": "/static/js/787.84fd3cb2.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.70954df4.css",
-    "static/js/main.020cc803.js"
+    "static/css/main.01a52b35.css",
+    "static/js/main.4459468e.js"
   ]
 }
