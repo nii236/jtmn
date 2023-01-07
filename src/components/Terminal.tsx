@@ -545,7 +545,11 @@ const TerminalController = (props: {
   return (
     <Box>
       <Terminal
-        colorMode={mode === "light" ? TermColor.Light : TermColor.Dark}
+        colorMode={
+          mode === "light" || mode === "swiss"
+            ? TermColor.Light
+            : TermColor.Dark
+        }
         onInput={(input) => props.onInput(input)}
       >
         {props.text.map((el, i) => (
