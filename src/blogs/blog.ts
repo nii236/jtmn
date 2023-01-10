@@ -6,7 +6,6 @@ export interface BlogPostData {
   date: string
   author: string
   categories: string[]
-  hashes: any[]
   tags: string[]
   header: string
   headerRatio: string

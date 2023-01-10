@@ -1,0 +1,23 @@
+{
+  "id": "motivation-setting-yourself-apart",
+  "type": "blog",
+  "title": "Intrinsic Motivation and Setting Yourself Apart",
+  "description": "Intrinsic motivation. It may not come naturally, but can be by good effort and hard work. John provides us with ways he overcame the software developer's version of a runner's wall, and how you can do the same.",
+  "date": "2018-09-21T15:06:51+08:00",
+  "author": "john",
+  "categories": ["business-owners", "developers"],
+  "tags": [
+    "john",
+    "motivation",
+    "unique",
+    "software development",
+    "internship"
+  ],
+  "header": "./IntrinsicMotivation.jpg",
+  "headerRatio": "60%",
+  "readLength": "5 min",
+  "related": [
+    "bridge-between-graduate-junior",
+    "i-became-a-web-developer-at-30"
+  ]
+}

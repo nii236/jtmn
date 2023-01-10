@@ -1,0 +1,14 @@
+{
+  "id": "blockchain-analytics-with-cayley-db",
+  "type": "blog",
+  "title": "Blockchain Analytics with Cayley DB",
+  "description": "In this blog we will be covering the process of building relationships between blocks, transactions and addresses using Google’s Cayley DB. With this information we may be able to pinpoint important transfers of value and also build an ownership database on top of it to track high value individuals.",
+  "date": "2019-10-21T10:48:12+08:00",
+  "author": "john",
+  "categories": ["developers"],
+  "tags": ["technology", "blockchain", "bitcoin", "john"],
+  "header": "./graph_cluster_distant_wide.jpg",
+  "headerRatio": "35.15%",
+  "readLength": "10 min ",
+  "related": ["bitcoins-imminent-chain-split", "rust-and-cost-brain-power"]
+}

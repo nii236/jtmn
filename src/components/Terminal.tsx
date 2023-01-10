@@ -414,18 +414,27 @@ const HelpText = [
   </Box>,
 ]
 
+const BlogData = [
+  {
+    Title: "Intrinsic Motivation and Setting Yourself Apart",
+    Link: "/blog/4",
+  },
+  { Title: "Blockchain Analytics with Cayley DB", Link: "/blog/3" },
+  { Title: "Go, Rust and the cost of brain power", Link: "/blog/2" },
+  { Title: "Bitcoin's Imminent Chain Split", Link: "/blog/1" },
+]
+
 const BlogText = [
   <Box sx={{ marginTop: "0.5rem", marginBottom: "0.5rem" }}>
     <Paragraph>My blog posts:</Paragraph>
     <Paragraph as="ul">
-      <Paragraph as={"li"} sx={{ listStyleType: "none" }}>
-        <RouterLink to="/blog/2">
-          Go, Rust and the cost of brain power
-        </RouterLink>
-        <Paragraph as={"li"} sx={{ listStyleType: "none" }}>
-          <RouterLink to="/blog/1">Bitcoin's Imminent Chain Split</RouterLink>
-        </Paragraph>
-      </Paragraph>
+      {BlogData.map((el) => {
+        return (
+          <Paragraph key={el.Title} as={"li"} sx={{ listStyleType: "none" }}>
+            <RouterLink to={el.Link}>{el.Title}</RouterLink>
+          </Paragraph>
+        )
+      })}
     </Paragraph>
   </Box>,
 ]

@@ -38,6 +38,11 @@ export const theme: Theme = {
     li: {
       listStyleType: "none",
     },
+    pre: {
+      ...system.styles.pre,
+      whiteSpace: "pre-wrap",
+      wordBreak: "break-word",
+    },
   },
   config: {
     initialColorModeName: "light",

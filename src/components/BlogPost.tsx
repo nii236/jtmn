@@ -16,11 +16,15 @@ import { ThemeProvider } from "theme-ui"
 import { MDXComponents } from "mdx/types"
 import Markdown from "markdown-to-jsx"
 import { useParams } from "react-router-dom"
-import blog1data from "../blogs/1.json"
-import blog1body from "../blogs/1.md?raw"
-import blog2data from "../blogs/2.json"
-import blog2body from "../blogs/2.md?raw"
-import { format, formatDistance, parse, parseISO } from "date-fns"
+import blog1data from "../blogs/01.json"
+import blog1body from "../blogs/01.md?raw"
+import blog2data from "../blogs/02.json"
+import blog2body from "../blogs/02.md?raw"
+import blog3data from "../blogs/03.json"
+import blog3body from "../blogs/03.md?raw"
+import blog4data from "../blogs/04.json"
+import blog4body from "../blogs/04.md?raw"
+import { formatDistance, parseISO } from "date-fns"
 const blogs: { [key: number]: { data: BlogPostData; body: string } } = {
   1: {
     data: blog1data,
@@ -30,6 +34,14 @@ const blogs: { [key: number]: { data: BlogPostData; body: string } } = {
     data: blog2data,
     body: blog2body,
   },
+  3: {
+    data: blog3data,
+    body: blog3body,
+  },
+  4: {
+    data: blog4data,
+    body: blog4body,
+  },
 }
 export const BlogPost = () => {
   let { blogId } = useParams()
@@ -37,7 +49,11 @@ export const BlogPost = () => {
   const data = blogs[parseInt(blogId, 10)].data
   const body = blogs[parseInt(blogId, 10)].body
   return (
-    <Box marginY={["2rem", "1rem"]} p={["0rem", "1rem"]}>
+    <Box
+      marginX={["0rem", "2rem"]}
+      marginY={["2rem", "1rem"]}
+      p={["0rem", "1rem"]}
+    >
       <Text>
         <RouterLink to="/">{"<-"} Back</RouterLink>
       </Text>
