@@ -1,0 +1,23 @@
+{
+  "id": "rust-and-cost-brain-power",
+  "type": "blog",
+  "title": "Go, Rust and the cost of brain power",
+  "description": "Is the programming language Rust really that different to Go? John Nguyen talks on differences, usability and implementation when it comes to developing Rust applications.",
+  "date": "2018-09-11T16:09:58+08:00",
+  "author": "john",
+  "categories": ["developers"],
+  "hashes": [],
+  "tags": [
+    "technology",
+    "programming",
+    "development",
+    "go",
+    "rust",
+    "software",
+    "john"
+  ],
+  "header": "./BrainCost.jpg",
+  "headerRatio": "56.25%",
+  "readLength": "2 min",
+  "related": ["ninjasoftware-ddd"]
+}

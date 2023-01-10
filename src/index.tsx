@@ -1,8 +1,5 @@
 import React from "react"
 import ReactDOM from "react-dom/client"
-import blog1data from "./blogs/1.json"
-// eslint-disable-next-line import/no-webpack-loader-syntax
-import blog1body from "!!raw-loader!./blogs/1.md"
 import { App } from "./App"
 import reportWebVitals from "./reportWebVitals"
 import { ThemeProvider } from "theme-ui"
@@ -21,10 +18,10 @@ const router = createBrowserRouter([
     ),
   },
   {
-    path: "/blog/:blog_id",
+    path: "/blog/:blogId",
     element: (
       <App>
-        <BlogPost data={blog1data} body={blog1body} />
+        <BlogPost />
       </App>
     ),
   },

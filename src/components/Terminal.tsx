@@ -419,9 +419,12 @@ const BlogText = [
     <Paragraph>My blog posts:</Paragraph>
     <Paragraph as="ul">
       <Paragraph as={"li"} sx={{ listStyleType: "none" }}>
-        <RouterLink to="/blog/1">
+        <RouterLink to="/blog/2">
           Go, Rust and the cost of brain power
         </RouterLink>
+        <Paragraph as={"li"} sx={{ listStyleType: "none" }}>
+          <RouterLink to="/blog/1">Bitcoin's Imminent Chain Split</RouterLink>
+        </Paragraph>
       </Paragraph>
     </Paragraph>
   </Box>,

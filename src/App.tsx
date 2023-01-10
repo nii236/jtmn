@@ -4,9 +4,6 @@ import "./App.css"
 
 import { ColorMode } from "./components/ColorMode"
 
-import { TerminalContainer } from "./components/Terminal"
-import { isPropertySignature } from "typescript"
-
 const App = (props: { children: JSX.Element }) => {
   return (
     <Container p="1rem" sx={{ maxWidth: "75rem" }}>

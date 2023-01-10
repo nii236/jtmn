@@ -93,7 +93,7 @@ const Header = () => {
       >
         <Textarea
           sx={{
-            height: ["150px", "100%"],
+            height: ["150px", "250px"],
             resize: "none",
             ":-webkit-scrollbar-track": {
               WebkitBoxShadow: "inset 0 0 6px rgba(0,0,0,0.3)",

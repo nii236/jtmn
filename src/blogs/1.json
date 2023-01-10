@@ -1,23 +1,15 @@
 {
-  "id": "rust-and-cost-brain-power",
+  "id": "bitcoins-imminent-chain-split",
   "type": "blog",
-  "title": "Go, Rust and the cost of brain power",
-  "description": "Is the programming language Rust really that different to Go? John Nguyen talks on differences, usability and implementation when it comes to developing Rust applications.",
-  "date": "2018-09-11T16:09:58+08:00",
+  "title": "Bitcoin's Imminent Chain Split",
+  "description": "The Bitcoin community has been rife with drama, community splits, censorship and conspiracies. It can be quite tiring to keep up with all of this information so here is a short blog post to summarise for those interested.",
+  "date": "2017-11-22T11:08:00+08:00",
   "author": "john",
-  "categories": ["developers"],
+  "categories": ["investors", "entrepreneurs"],
   "hashes": [],
-  "tags": [
-    "technology",
-    "programming",
-    "development",
-    "go",
-    "rust",
-    "software",
-    "john"
-  ],
-  "header": "./BrainCost.jpg",
+  "tags": ["technology", "blockchain", "bitcoin", "john"],
+  "header": "./Bitcoin.jpg",
   "headerRatio": "56.25%",
-  "readLength": "2 min",
-  "related": ["ninjasoftware-ddd"]
+  "readLength": "1 min",
+  "related": ["blockchain-analytics-with-cayley-db"]
 }
