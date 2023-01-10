@@ -109,7 +109,7 @@ const Header = () => {
           }}
           as="textarea"
           spellCheck={false}
-          value={pgp}
+          defaultValue={pgp}
         ></Textarea>
       </Box>
     </Flex>

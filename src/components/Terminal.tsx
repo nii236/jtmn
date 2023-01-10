@@ -1,4 +1,5 @@
 import React, { useState } from "react"
+import { RouterLink } from "./RouterLink"
 import Terminal, {
   ColorMode as TermColor,
   TerminalInput,
@@ -392,6 +393,9 @@ const HelpText = [
         about
       </Paragraph>
       <Paragraph as={"li"} sx={{ listStyleType: "none" }}>
+        blog
+      </Paragraph>
+      <Paragraph as={"li"} sx={{ listStyleType: "none" }}>
         cv
       </Paragraph>
       <Paragraph as={"li"} sx={{ listStyleType: "none" }}>
@@ -405,6 +409,19 @@ const HelpText = [
       </Paragraph>
       <Paragraph as={"li"} sx={{ listStyleType: "none" }}>
         help
+      </Paragraph>
+    </Paragraph>
+  </Box>,
+]
+
+const BlogText = [
+  <Box sx={{ marginTop: "0.5rem", marginBottom: "0.5rem" }}>
+    <Paragraph>My blog posts:</Paragraph>
+    <Paragraph as="ul">
+      <Paragraph as={"li"} sx={{ listStyleType: "none" }}>
+        <RouterLink to="/blog/1">
+          Go, Rust and the cost of brain power
+        </RouterLink>
       </Paragraph>
     </Paragraph>
   </Box>,
@@ -451,6 +468,10 @@ const TerminalContainer = () => {
     ld.push(...HelpText)
     setTerminalLineData(ld)
   }
+  const handleBlog = (ld: JSX.Element[]) => {
+    ld.push(...BlogText)
+    setTerminalLineData(ld)
+  }
   const handleUnrecognised = (ld: JSX.Element[]) => {
     ld.push(<Paragraph>Unrecognized command</Paragraph>)
     setTerminalLineData(ld)
@@ -468,6 +489,8 @@ const TerminalContainer = () => {
       handleCV(ld)
     } else if (input.toLocaleLowerCase().trim() === "about") {
       handleAbout(ld)
+    } else if (input.toLocaleLowerCase().trim() === "blog") {
+      handleBlog(ld)
     } else if (input.toLocaleLowerCase().trim() === "contracts") {
       handleContracts(ld)
     } else if (input.toLocaleLowerCase().trim() === "contact") {
@@ -485,6 +508,7 @@ const TerminalContainer = () => {
 
   const commands = [
     "cv",
+    "blog",
     "about",
     "contracts",
     "contact",

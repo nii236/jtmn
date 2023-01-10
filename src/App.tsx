@@ -5,8 +5,9 @@ import "./App.css"
 import { ColorMode } from "./components/ColorMode"
 
 import { TerminalContainer } from "./components/Terminal"
+import { isPropertySignature } from "typescript"
 
-function App() {
+const App = (props: { children: JSX.Element }) => {
   return (
     <Container p="1rem" sx={{ maxWidth: "75rem" }}>
       <Flex sx={{ flexDirection: "column" }}>
@@ -17,13 +18,11 @@ function App() {
           sx={{ justifyContent: "center", flexDirection: ["column", "row"] }}
         >
           <Header />
-          <Box sx={{ flex: 3, alignSelf: "flex-end" }}>
-            <TerminalContainer />
-          </Box>
+          <Box sx={{ flex: 3, alignSelf: "flex-start" }}>{props.children}</Box>
         </Flex>
       </Flex>
     </Container>
   )
 }
 
-export default App
+export { App }
