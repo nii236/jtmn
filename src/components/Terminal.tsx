@@ -51,9 +51,9 @@ const ContactText = [
       <Link
         variant="term"
         target="_blank"
-        href="https://calendly.com/jtmn/30min"
+        href="https://calendly.com/jtmn/60min"
       >
-        https://calendly.com/jtmn/30min
+        https://calendly.com/jtmn/60min
       </Link>
     </Paragraph>
   </Box>,
