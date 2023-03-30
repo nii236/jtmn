@@ -85,6 +85,21 @@ const Header = () => {
       </Box>
       <Box
         sx={{
+          textAlign: "center",
+        }}
+      >
+        <Paragraph sx={{}}>I am currently:</Paragraph>
+        <Paragraph
+          sx={{
+            color: "primary",
+            fontStyle: "oblique",
+          }}
+        >
+          Not looking for work
+        </Paragraph>
+      </Box>
+      <Box
+        sx={{
           flex: [0, 1],
           width: "100%",
           overflow: "auto",
